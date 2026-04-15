@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World of Chocolate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <span class="logo">🍫 ChocoWorld</span>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#types">Types</a></li>
+        <li><a href="#fun-facts">Fun Facts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to the World of Chocolate</h1>
+      <p>Discover the rich history, delightful varieties, and surprising facts about everyone's favorite treat.</p>
+      <a href="#about" class="btn">Explore</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <img src="choco1.jpg" alt="Delicious chocolate">
+        <div>
+          <h2>The Story of Chocolate</h2>
+          <p>Chocolate has been enjoyed for over 3,000 years. Originating from the cacao beans of Central and South America, it was first consumed as a bitter drink by the ancient Mayans and Aztecs.</p>
+          <p>Today, chocolate is one of the most popular foods in the world, with the global market valued at over $130 billion. From bean to bar, the journey of chocolate involves harvesting, fermenting, drying, roasting, and refining cacao beans into the smooth, sweet treat we love.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="types">
+    <div class="container">
+      <h2>Types of Chocolate</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🍫 Dark Chocolate</h3>
+          <p>Contains 50–90% cocoa solids. Rich in antioxidants and known for its bold, slightly bitter flavor. Often considered the healthiest variety.</p>
+        </div>
+        <div class="card">
+          <h3>🥛 Milk Chocolate</h3>
+          <p>Made with milk powder or condensed milk, giving it a creamy, sweet taste. The most popular type of chocolate worldwide.</p>
+        </div>
+        <div class="card">
+          <h3>🤍 White Chocolate</h3>
+          <p>Made from cocoa butter, sugar, and milk — but no cocoa solids. Sweet and smooth with a rich vanilla flavor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fun-facts">
+    <div class="container">
+      <div class="about-grid reverse">
+        <div>
+          <h2>Fun Facts</h2>
+          <ul class="facts-list" id="facts-list">
+            <li>It takes about 400 cacao beans to make one pound of chocolate.</li>
+            <li>The world's largest chocolate bar weighed over 12,000 pounds.</li>
+            <li>Switzerland leads the world in chocolate consumption per capita.</li>
+            <li>Cacao trees can live up to 200 years but only produce beans for about 25 years.</li>
+            <li>Chocolate was once used as currency by the Aztecs.</li>
+          </ul>
+          <button class="btn" id="fact-btn">Show Random Fact</button>
+          <p id="random-fact" class="random-fact"></p>
+        </div>
+        <img src="choco2.jpg" alt="Chocolate varieties">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ChocoWorld. Made with 🍫</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
